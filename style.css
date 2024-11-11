@@ -1,0 +1,89 @@
+/* Personalizações rápidas */
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 106px;
+}
+
+header {
+    background-color: #004B7C;
+    /* Azul escuro */
+    color: white;
+    padding: 5px 0;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.356);
+}
+.img-product{
+    transition: 1.5s;
+    height: 300px;
+}
+.img-product:hover{
+    scale: 0.9;
+    
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    transition: 1s;
+}
+.card-profile{
+    background-color:rgb(242, 241, 241);
+}
+.profile{
+    width: 220px;
+    height: 200px;
+}
+.logo:hover{
+    transform: rotate(-5deg);
+    filter: brightness(250%);
+   
+}
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 70vh;
+    /* Ajustando para 50% da altura da tela */
+    object-fit: fill;
+}
+
+.cta-button {
+    background-color: #00B8D4;
+    /* Verde Limão */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.card{
+    transition: 0.6s ease-in-out;
+    display: flex;
+    
+}
+.card:hover{
+    box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.274);
+    transform: translateY(-10px);
+}
+
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+.cta-button {
+    background-color: #00B8D4; /* Verde Limão */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+@media (width < 990px){
+    header{
+        padding-inline:20px ;
+    }
+    .carousel-item img {
+       height: 50vh;
+    }   
+}

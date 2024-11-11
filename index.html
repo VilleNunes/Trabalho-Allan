@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-script - Transformando Ideias em Código</title>
+    <!-- Link do Bootstrap -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navegação -->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg  navbar-light container">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="img/logo.png" alt="Logo E&lt;/&gt;script">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="#home">Início</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#servicos">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#equipe">Equipe</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Inicio Carroesel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/banner1.jpg" height="50px" class="d-block w-100" alt="Imagem de idosos em letramento digital">
+        </div>
+        <div class="carousel-item">
+            <img src="img/banner2.jpg" class="d-block w-100" alt="Imagem 2">
+        </div>
+        <div class="carousel-item">
+            <img src="img/banner3.jpg" class="d-block w-100" alt="Imagem 3">
+        </div>
+    </div>
+  </div>
+  <!--Fim Carroesel -->
+
+       <!-- Seção Sobre -->
+       <section id="sobre" class="container py-5">
+        <h2 class="text-center mb-4">Sobre a E-script</h2>
+        <p>A e</>script é uma empresa especializada em criar soluções digitais sob medida para transformar ideias em
+            código. Nossa missão é impulsionar empresas por meio de tecnologias personalizadas que atendem às
+            necessidades específicas de cada cliente.</p>
+        <p><strong>Missão:</strong> Desenvolver soluções inovadoras e personalizadas para negócios que buscam se
+            destacar no mercado digital.</p>
+        <p><strong>Visão:</strong> Ser a principal parceira tecnológica de empresas, fornecendo software de qualidade e
+            inovação contínua.</p>
+        <p><strong>Valores:</strong> Inovação, Eficiência, Colaboração e Transparência.</p>
+    </section>
+    
+    <!-- Seção de Serviços -->
+    <section id="servicos" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nossos Serviços</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="img/imagem.webp" class="card-img-circle img-product" alt="Serviço 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Desenvolvimento de Software</h5>
+                            <p class="card-text">Criamos soluções personalizadas para seu negócio, do planejamento à
+                                implementação.</p>
+                            <a href="produto1.html" class="btn cta-button">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card">
+                        <img src="img/PLATAFORMA DE MARKETING DIGITAL.png" class="card-img-top img-product" alt="Serviço 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Marketing Digital</h5>
+                            <p class="card-text">Oferecemos consultoria de marketing estratégica para a transformação digital de sua
+                                empresa.</p>
+                            <a href="produto3.html" class="btn cta-button">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card mt-4">
+                        <img src="img/Automação de processos.png" class="card-img-top img-product" alt="Serviço 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Automação de Processos</h5>
+                            <p class="card-text">Automatize processos manuais e otimize seus fluxos de trabalho com
+                                tecnologia inteligente.</p>
+                            <a href="produto2.html" class="btn cta-button">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Seção Equipe -->
+    <section id="equipe" class="container py-5">
+        <h2 class="text-center mb-4">Nossa Equipe</h2>
+        <div class="row">
+            <div class="col-md-3 my-4">
+                <div class="card pt-3 card-profile">
+                    <img src="img/arthur.jpg"  class="card-img-top mx-auto rounded-circle profile"
+                        alt="Membro da Equipe">
+                    <div class="card-body">
+                        <h5 class="card-title">Arthur Miranda Rodrigues</h5>
+                        <p class="card-text">CEO e Fundador - Especialista em Desenvolvimento de Software.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 my-4">
+                <div class="card pt-3 card-profile">
+                    <img src="img/alexandre.jpg" class="card-img-top mx-auto rounded-circle profile"
+                        alt="Membro da Equipe">
+                    <div class="card-body">
+                        <h5 class="card-title">Alexandre Aizono</h5>
+                        <p class="card-text">QA Junior - Especialista em testes de Sistemas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 my-4">
+                <div class="card pt-3 card-profile">
+                    <img src="img/daniel.jpg" class="card-img-top mx-auto rounded-circle profile"
+                        alt="Membro da Equipe">
+                    <div class="card-body">
+                        <h5 class="card-title">Daniel Satel Pereira</h5>
+                        <p class="card-text">Desenvolvedor - Especialista em Front-End</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 my-4 ">
+                <div class="card pt-3 card-profile">
+                    <img src="img/henrique.png" class="card-img-top mx-auto rounded-circle profile"
+                        alt="Membro da Equipe">
+                    <div class="card-body">
+                        <h5 class="card-title">Henrique da Cunha Moreira</h5>
+                        <p class="card-text">Desenvolvedor - Especialista em Ux/Ui</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 my-4">
+                <div class="card pt-3 card-profile">
+                    <img src="img/ville.png" class="card-img-top mx-auto rounded-circle profile"
+                        alt="Membro da Equipe">
+                    <div class="card-body">
+                        <h5 class="card-title">Ville Nunes Figueiredo</h5>
+                        <p class="card-text">Desenvolvedor - Especialista em Back-End</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seção Contato -->
+    <section id="contato" class="container py-5">
+        <h2 class="text-center mb-4">Entre em Contato</h2>
+        <form action="#" method="POST">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+            </div>
+            <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="4" placeholder="Sua mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn cta-button">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    
+    <!--Footer inicio-->
+    <footer class="text-center margin text-white" style="background-color: #515253">
+      <div class="container">
+  
+          <section class="mt-0">
+  
+              <div class="row text-center d-flex justify-content-center pt-5">
+  
+                  <div class="col-md-3">
+                      <h6 class="text-uppercase font-weight-bold">
+                          <a href="#sobre" class="text-white">Sobre</a>
+                      </h6>
+                  </div>
+  
+                  <div class="col-md-3">
+                      <h6 class="text-uppercase font-weight-bold">
+                          <a href="#servicos" class="text-white">Serviços</a>
+                      </h6>
+                  </div>
+  
+                  <div class="col-md-3">
+                      <h6 class="text-uppercase font-weight-bold">
+                          <a href="#equipe" class="text-white">Proximo Evento</a>
+                      </h6>
+                  </div>
+  
+                  <div class="col-md-3">
+                      <h6 class="text-uppercase font-weight-bold">
+                          <a href="#contato" class="text-white">Contato</a>
+                      </h6>
+                  </div>
+              </div>
+          </section>
+          <hr class="my-5" />
+          <div class="container my-5">
+              <h2 class="text-center mb-4">Contato</h2>
+  
+              <div class="row">
+                  <div class="col-md-6 mb-4">
+                      <h5>Informações de Contato</h5>
+                      <ul class="list-unstyled">
+                          <li>
+                              <i class="fas fa-envelope"></i>
+                              <strong>Email:</strong> escript@gmail.com
+                          </li>
+                          <li>
+                              <i class="fas fa-phone"></i>
+                              <strong>Telefone:</strong> (44) 9999-9999
+                          </li>
+                          <li>
+                              <i class="fas fa-map-marker-alt"></i>
+                              <strong>Localização:</strong> Av. Paraná 7327, Zona III, CEP 87508290, Umuarama - PR
+                          </li>
+                      </ul>
+                  </div>
+  
+                  <div class="col-md-6 mb-4">
+                      <h5>Redes Sociais</h5>
+                      <div class="">
+                          <a href="https://api.whatsapp.com/send?phone=5544997060488" class="btn btn-success me-2"
+                              target="_blank">
+                              <i class="fab fa-whatsapp"></i> Inscreva-se pelo WhatsApp
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <p>&copy; 2024 E&lt;/&gt;script - Todos os direitos reservados.</p>
+    </footer>
+    <!--Footer Fim-->
+
+  
+    <!-- Bootstrap JS e Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+
+    
+</body>
+
+</html>
